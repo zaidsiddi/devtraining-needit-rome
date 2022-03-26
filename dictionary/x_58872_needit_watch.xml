@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Watch" max_length="40" name="x_58872_needit_watch" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Choice 1" label="Caller" mandatory="true" max_length="40" name="u_caller_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="David miller" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="short description" mandatory="true" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
+                <element inactive_on_update="false" label="Unable to access the shared folder" sequence="0" value="unable to access the shared folder"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
+            </choice>
+        </element>
+    </element>
+</database>
